@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Cipher Pro Trading Models</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #0b0e14; --card: #ffffff; --primary: #f3ba2f;
+            --tp: #0ecb81; --sl: #e74c3c; --entry: #3498db;
+            --ag-buy: #0ecb81; --ag-sell: #e74c3c; --devil: #8e44ad;
+        }
+        body { font-family: 'IBM Plex Sans', sans-serif; background: #0b0e14; margin: 0; padding: 40px; min-height: 100vh; color: #1e2329; }
+        
+        .main-header-card { 
+            background: radial-gradient(circle at top right, #2c3e50, #000000), linear-gradient(135deg, #f3ba2f22, #8e44ad22);
+            padding: 60px; border-radius: 20px; text-align: center; margin-bottom: 40px; 
+            box-shadow: 0 0 30px rgba(243, 186, 47, 0.15); border: 1px solid rgba(255,255,255,0.1);
+        }
+        .main-header-card h1 { font-weight: 600; font-size: 3.5rem; margin: 0; color: #ffffff; letter-spacing: -1px; }
+        .main-header-card p { color: #f3ba2f; font-size: 1.3rem; margin-top: 10px; font-weight: 300; }
+
+        .card { background: var(--card); border-radius: 20px; padding: 50px; margin-bottom: 40px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border-left: 10px solid var(--primary); }
+        h3 { display: flex; align-items: center; gap: 15px; font-size: 2rem; margin-top: 0; margin-bottom: 25px; }
+        
+        .meta-box { background: #fffdf0; padding: 25px; border-radius: 12px; border: 1px solid #f3ba2f33; margin: 25px 0; display: flex; gap: 40px; flex-wrap: wrap; font-size: 1.1rem; }
+        ul { padding-left: 25px; line-height: 2; list-style: none; font-size: 1.1rem; }
+        li { margin-bottom: 15px; position: relative; }
+        .footer { text-align: center; padding: 40px; color: #848e9c; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+<div class="main-header-card">
+    <h1><i style="color:var(--primary)"></i>🐋 Stock Cipher Pro</h1>
+    <p><i class="fas fa-chart-line" style="color:#3498db"></i> Institutional Trading Entry Models Guidebook</p>
+</div>
+
+<div class="card">
+    <h3><i class="fas fa-rocket" style="color: #f3ba2f;"></i> Aggressive Rocket Entry</h3>
+    <p><i class="fas fa-info-circle" style="color:#3498db"></i> <strong>Description:</strong> Enter immediately after a <i class="fas fa-rocket" style="color:#f3ba2f"></i> Rocket signal forms from a major support zone to capture the move at its earliest stage.</p>
+    <p><i class="fas fa-list-ol" style="color:#8e44ad"></i> <strong>Rules:</strong></p>
+    <ul>
+        <li><i class="fas fa-map-marked-alt" style="color:#e67e22"></i> Rocket must form at a <strong>Daily, 3-Day, or Weekly Support Zone</strong> identified by <strong>Buyer's POI</strong> and <strong>POR</strong>.</li>
+        <li><i class="fas fa-ban" style="color:#e74c3c"></i> Avoid rocket forming in the middle of the chart with no nearby support.</li>
+        <li><i class="fas fa-exclamation-triangle" style="color:#f1c40f"></i> Avoid rocket that form after a <strong>Bullish Weak Leg</strong>, as they have a higher chance of failure.</li>
+        <li><i class="fas fa-clock" style="color:#95a5a6"></i> Check the candlestick chart and avoid entries if the stock has been <strong>aggressively pumped within the last 5 minutes</strong>.</li>
+        <li><i class="fas fa-sign-in-alt" style="color:#3498db"></i> Enter at the <strong>Entry Price</strong> displayed on the chart.</li>
+        <li><i class="fas fa-shield-halved" style="color:#2ecc71"></i> Use the <strong>SL</strong> and <strong>TP</strong> displayed on the chart.</li>
+    </ul>
+    <div class="meta-box"><span><i class="fas fa-bolt" style="color:#e67e22"></i> <strong>Risk Level:</strong> High</span> <span><i class="fas fa-star" style="color:#f1c40f"></i> <strong>Best For:</strong> Early entries from strong support-based reversals.</span></div>
+</div>
+
+<div class="card">
+    <h3><i class="fas fa-bullseye" style="color: #0ecb81;"></i> MPP Zone Entry</h3>
+    <p><i class="fas fa-info-circle" style="color:#3498db"></i> <strong>Description:</strong> The highest-probability entry model. Enter at the <strong>MPP Zone</strong> for maximum reward with controlled risk.</p>
+    <p><i class="fas fa-list-ol" style="color:#8e44ad"></i> <strong>Rules:</strong></p>
+    <ul>
+        <li><i class="fas fa-layer-group" style="color:#9b59b6"></i> The MPP Zone contains <strong>3 entry levels</strong>.</li>
+        <li><i class="fas fa-divide" style="color:#e67e22"></i> Divide capital into <strong>3 equal parts</strong> and buy at each MPP level.</li>
+        <li><i class="fas fa-map-marker-alt" style="color:#3498db"></i> Enter only within the MPP Zone displayed on the chart.</li>
+        <li><i class="fas fa-calendar-alt" style="color:#34495e"></i> <strong>Weekly MPP Zones are the strongest</strong>, followed by <strong>3-Day MPP Zones</strong>, then <strong>Daily MPP Zones</strong>.</li>
+        <li><i class="fas fa-sort-amount-up" style="color:#27ae60"></i> Priority: <strong>Weekly > 3-Day > Daily</strong>.</li>
+        <li><i class="fas fa-shield-halved" style="color:#e74c3c"></i> Use the <strong>same SL</strong> displayed on the chart.</li>
+        <li><i class="fas fa-check-double" style="color:#2ecc71"></i> Use the <strong>same TP levels</strong> displayed on the chart.</li>
+    </ul>
+    <p><i class="fas fa-tasks" style="color:#8e44ad"></i> <strong>Trade Management:</strong></p>
+    <ul>
+        <li><i class="fas fa-chart-line" style="color:#e67e22"></i> If <strong>NEPSE loses momentum</strong> or <strong>bearish sentiment increases</strong>, exit at the <strong> Entry Price shown by Rocket</strong>.</li>
+        <li><i class="fas fa-thumbs-up" style="color:#2ecc71"></i> If market conditions remain favorable, continue targeting the <strong>Cipher TP Levels</strong>.</li>
+        <li><i class="fas fa-circle" style="color:var(--ag-buy)"></i> Hold the position if <strong>Aggressive Buyers</strong> appear on the chart.</li>
+        <li><i class="fas fa-hand-paper" style="color:#e74c3c"></i> Do not exit while aggressive buyers remain active.</li>
+        <li><i class="fas fa-mask" style="color:var(--devil)"></i> Exit only when a <strong>👽Devil Icon (Buyer Absorption)</strong> appears on the chart.</li>
+    </ul>
+    <div class="meta-box"><span><i class="fas fa-tachometer-alt" style="color:#e67e22"></i> <strong>Risk:</strong> Medium</span> <span><i class="fas fa-chart-pie" style="color:#2ecc71"></i> <strong>Success:</strong> Very High</span> <span><i class="fas fa-crosshairs" style="color:#3498db"></i> <strong>Best For:</strong> Precision entries.</span></div>
+</div>
+
+<div class="card">
+    <h3><i class="fas fa-forward" style="color: #3498db;"></i> Follow-Through Entry (FTE)</h3>
+    <p><i class="fas fa-info-circle" style="color:#3498db"></i> <strong>Description:</strong> A trend-continuation setup that allows traders to join an existing move after <i class="fas fa-circle" style="color:var(--ag-buy)"></i> <strong>Aggressive Buyers</strong> and a <strong>Follow-Through Entry (FTE)</strong> signal appear on the Cipher chart.</p>
+    <p><i class="fas fa-list-ol" style="color:#8e44ad"></i> <strong>Rules:</strong></p>
+    <ul>
+        <li><i class="fas fa-circle" style="color:var(--ag-buy)"></i> <strong>Aggressive Buyers</strong> must be present on the chart.</li>
+        <li><i class="fas fa-check-circle" style="color:#2ecc71"></i> A valid <strong>FTE signal</strong> must appear.</li>
+        <li><i class="fas fa-fire" style="color:#e74c3c"></i> The setup works <strong>only in strong trending markets</strong>.</li>
+        <li><i class="fas fa-calendar-day" style="color:#34495e"></i> The trade is <strong>only valid on the next trading day</strong> after the FTE signal appears.</li>
+        <li><i class="fas fa-clock" style="color:#95a5a6"></i> Check the candlestick chart and avoid entries if the stock has been <strong>aggressively pumped within the last 5 minutes</strong>.</li>
+        <li><i class="fas fa-sign-in-alt" style="color:#3498db"></i> Enter at the <strong>FTE Entry Price</strong> displayed on the chart.</li>
+        <li><i class="fas fa-shield-halved" style="color:#e74c3c"></i> Place SL: Just below the <strong>FTE candle low</strong>, or below the <strong>Rocket Entry Price (only if you enter around the opening price of FTE candle)</strong>.</li>
+        <li><i class="fas fa-bullseye" style="color:#2ecc71"></i> Use the <strong>TP levels</strong> displayed on the FTE signal chart</li>
+    </ul>
+    <p><i class="fas fa-tasks" style="color:#8e44ad"></i> <strong>Trade Management:</strong></p>
+    <ul>
+        <li><i class="fas fa-wallet" style="color:#f1c40f"></i> Exit immediately after the shares arrive in your <strong>Demat account</strong>.</li>
+        <li><i class="fas fa-chart-line" style="color:#2ecc71"></i> If the trade is in <strong>significant profit</strong>, continue holding.</li>
+        <li><i class="fas fa-mask" style="color:var(--devil)"></i> In high-profit situations, stay in the trade until a <strong>👽Devil Icon (Buyer Absorption)</strong> appears.</li>
+    </ul>
+    <div class="meta-box"><span><i class="fas fa-tachometer-alt" style="color:#e67e22"></i> <strong>Risk:</strong> Medium</span> <span><i class="fas fa-chart-pie" style="color:#2ecc71"></i> <strong>Success:</strong> High</span> <span><i class="fas fa-rocket" style="color:#3498db"></i> <strong>Best For:</strong> Riding momentum.</span></div>
+</div>
+
+<div class="card">
+    <h3><i class="fas fa-user-secret" style="color: #e74c3c;"></i> Trade Before Sellers Get Trapped (TSGT)</h3>
+    <p><i class="fas fa-info-circle" style="color:#3498db"></i> <strong>Description:</strong> A high-probability reversal setup that anticipates seller exhaustion before a Rocket signal forms.</p>
+    <p><i class="fas fa-list-ol" style="color:#8e44ad"></i> <strong>Rules:</strong></p>
+    <ul>
+        <li><i class="fas fa-circle" style="color:var(--ag-sell)"></i> <strong>Aggressive Sellers</strong> must be visible on the <strong>Daily or 3-Day timeframe</strong>.</li>
+        <li><i class="fas fa-map-marked-alt" style="color:#e67e22"></i> Price must be entering a <strong>Weekly Support Range with </strong> <strong>POR (Point of Release)</strong> and <strong>Buyers' POI (Point of Interest)</strong>.</li>
+        <li><i class="fas fa-hand-holding-usd" style="color:#2ecc71"></i> As soon as aggressive sellers enter the Weekly Support Range, begin accumulating.</li>
+        <li><i class="fas fa-divide" style="color:#9b59b6"></i> Divide capital into <strong>3 equal parts</strong>: Buy at <strong>Range High, Mid, and Low</strong>.</li>
+        <li><i class="fas fa-shield-halved" style="color:#e74c3c"></i> Place SL <strong>just below the low of the Weekly Range</strong>.</li>
+    </ul>
+    <p><i class="fas fa-balance-scale" style="color:#34495e"></i> <strong>Confluence Factors:</strong></p>
+    <ul>
+        <li><i class="fas fa-leaf" style="color:#27ae60"></i> Higher probability if supported by a <strong>Virgin Bearish Weak Leg</strong> on: Weekly or Daily timeframe.</li>
+        <li><i class="fas fa-weight-hanging" style="color:#8e44ad"></i> Weekly Virgin Bearish Weak Leg carries greater weight.</li>
+    </ul>
+    <p><i class="fas fa-hand-holding-usd" style="color:#2ecc71"></i> <strong>Take Profit:</strong></p>
+    <ul>
+        <li><i class="fas fa-rocket" style="color:#f39c12"></i> Wait for a <strong>Daily Rocket</strong> to form inside the Weekly Range.</li>
+        <li><i class="fas fa-bullseye" style="color:#2ecc71"></i> Follow the <strong>TP levels displayed on the Cipher chart</strong>.</li>
+        <li><i class="fas fa-map" style="color:#3498db"></i> Alternatively, use the <strong>Cipher Liquidity Map</strong> for profit targets.</li>
+    </ul>
+    <div class="meta-box"><span><i class="fas fa-tachometer-alt" style="color:#e67e22"></i> <strong>Risk:</strong> Medium</span> <span><i class="fas fa-chart-pie" style="color:#2ecc71"></i> <strong>Success:</strong> Very High</span> <span><i class="fas fa-sync-alt" style="color:#e74c3c"></i> <strong>Best For:</strong> Catching major reversals.</span></div>
+</div>
+
+<div class="footer">
+    © 2026 Milan Pandey – Stock Cipher Pro.
+</div>
+
+</body>
+</html>
